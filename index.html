@@ -1,124 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manish Kumar | .NET Full Stack Developer</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manish Kumar — Backend & Full-Stack Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Manish Kumar</h1>
-            <h2>.NET Full Stack Developer</h2>
+<nav>
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span>MANISH.KUMAR</div>
+    <div class="navlinks">
+      <a href="#about">About</a>
+      <a href="#stack">Stack</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
 
-            <p>
-                Passionate Full Stack Developer with experience in
-                ASP.NET Core, SQL Server, Dapper, React, and modern web technologies.
-            </p>
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Backend &amp; Full-Stack Engineer</p>
+      <h1>Manish Kumar<br><span>builds the systems</span> behind the interface.</h1>
+      <p class="tag">Four years shipping ERP platforms, booking engines, and the APIs that hold them together — mostly in C# and ASP.NET Core, with SQL Server doing the heavy lifting underneath.</p>
+      <div class="meta-row">
+        <span>4 yrs experience</span>
+        <span>Gurugram, India</span>
+        <span>C# · ASP.NET Core · SQL Server</span>
+        <span>Open to new roles</span>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:developermanish73@gmail.com">Email me →</a>
+        <a class="btn btn-ghost" href="tel:+919588761093">+91 95887 61093</a>
+      </div>
+    </div>
 
-            <a href="#contact" class="btn">Contact Me</a>
+    <div class="diagram-frame">
+      <div class="cap"><span>// system.map</span><span>manish@stack</span></div>
+      <svg class="stackmap" viewBox="0 0 420 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of Manish's core technology stack connected to a central node">
+        <!-- wires -->
+        <path class="wire" d="M210,190 L90,70"/>
+        <path class="wire" d="M210,190 L210,50"/>
+        <path class="wire" d="M210,190 L330,70"/>
+        <path class="wire" d="M210,190 L60,190"/>
+        <path class="wire" d="M210,190 L360,190"/>
+        <path class="wire" d="M210,190 L90,310"/>
+        <path class="wire" d="M210,190 L210,335"/>
+        <path class="wire" d="M210,190 L330,310"/>
+
+        <!-- core -->
+        <circle class="node-core" cx="210" cy="190" r="34"/>
+        <circle class="node-core-ring" cx="210" cy="190" r="40"/>
+        <text class="core-label" x="210" y="185" text-anchor="middle">MK</text>
+        <text class="core-label" x="210" y="200" text-anchor="middle" font-size="9" font-weight="500">4 YRS</text>
+
+        <!-- outer nodes -->
+        <circle class="node" cx="90" cy="70" r="30"/>
+        <text class="node-label" x="90" y="66" text-anchor="middle">C# /</text>
+        <text class="node-label" x="90" y="78" text-anchor="middle">.NET Core</text>
+
+        <circle class="node" cx="210" cy="50" r="30"/>
+        <text class="node-label" x="210" y="46" text-anchor="middle">MVC /</text>
+        <text class="node-label" x="210" y="58" text-anchor="middle">Web API</text>
+
+        <circle class="node" cx="330" cy="70" r="30"/>
+        <text class="node-label" x="330" y="66" text-anchor="middle">SQL</text>
+        <text class="node-label" x="330" y="78" text-anchor="middle">Server</text>
+
+        <circle class="node" cx="60" cy="190" r="28"/>
+        <text class="node-label" x="60" y="186" text-anchor="middle">Micro-</text>
+        <text class="node-label" x="60" y="198" text-anchor="middle">services</text>
+
+        <circle class="node" cx="360" cy="190" r="28"/>
+        <text class="node-label" x="360" y="186" text-anchor="middle">React</text>
+        <text class="node-label" x="360" y="198" text-anchor="middle">.js</text>
+
+        <circle class="node" cx="90" cy="310" r="30"/>
+        <text class="node-label" x="90" y="306" text-anchor="middle">Entity FW /</text>
+        <text class="node-label" x="90" y="318" text-anchor="middle">Dapper</text>
+
+        <circle class="node" cx="210" cy="335" r="30"/>
+        <text class="node-label" x="210" y="331" text-anchor="middle">Azure</text>
+
+        <circle class="node" cx="330" cy="310" r="30"/>
+        <text class="node-label" x="330" y="306" text-anchor="middle">Git /</text>
+        <text class="node-label" x="330" y="318" text-anchor="middle">jQuery</text>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<hr class="rule">
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div>
+      <p class="eyebrow">About</p>
+      <h2>Aspiration</h2>
+    </div>
+    <div>
+      <p>Four years into a technology career that started at a tour-booking startup and now runs through enterprise ERP work, Manish's focus has stayed the same: understand the business problem well enough to build the right system for it, not just a working one.</p>
+      <p>He's aiming to keep pushing that further — sharpening the craft in .NET, SQL, and the services layer that connects them, while picking up more of the front end and cloud along the way. The goal isn't just experience on paper, but becoming the person a team leans on when something needs to actually work.</p>
+      <div class="edu-card" style="margin-top:28px;">
+        <p class="eyebrow" style="margin-bottom:10px;">Education</p>
+        <h3>MCA — Chandigarh University</h3>
+        <p>Chandigarh, India</p>
+        <hr class="rule" style="margin:16px 0;">
+        <h3>Maharaja Agrasen Himalayan Garhwal University</h3>
+        <p>Uttarakhand, India</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="stack">
+  <div class="wrap">
+    <div class="head">
+      <h2>Working stack</h2>
+      <span class="count">12 tools, one habit of shipping</span>
+    </div>
+    <div class="skill-groups">
+      <div class="skill-group">
+        <h4>Languages &amp; Frameworks</h4>
+        <div class="chips">
+          <span class="chip">C#</span>
+          <span class="chip">.NET / ASP.NET Core</span>
+          <span class="chip">MVC</span>
+          <span class="chip">Microservices</span>
+          <span class="chip">Web API</span>
         </div>
-    </header>
-
-    <!-- About -->
-    <section class="container">
-        <h2 class="section-title">About Me</h2>
-
-        <div class="card">
-            <p>
-                I am a Software Developer with 3+ years of experience
-                in designing and developing scalable web applications.
-                I have worked on Fleet Management, CRM, News Portal,
-                and Vehicle Booking applications using .NET technologies.
-            </p>
+      </div>
+      <div class="skill-group">
+        <h4>Data &amp; Front End</h4>
+        <div class="chips">
+          <span class="chip">SQL Server</span>
+          <span class="chip">Entity Framework</span>
+          <span class="chip">ADO.NET</span>
+          <span class="chip">Dapper</span>
+          <span class="chip">React.js</span>
+          <span class="chip">jQuery / Ajax</span>
         </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="container">
-        <h2 class="section-title">Skills</h2>
-
-        <div class="skills">
-            <span>C#</span>
-            <span>ASP.NET Core</span>
-            <span>.NET MVC</span>
-            <span>SQL Server</span>
-            <span>Dapper</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>Next.js</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Bootstrap</span>
-            <span>Git</span>
+      </div>
+      <div class="skill-group">
+        <h4>Cloud &amp; Tooling</h4>
+        <div class="chips">
+          <span class="chip">Azure</span>
+          <span class="chip">Git</span>
+          <span class="chip">VSTS</span>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Experience -->
-    <section class="container">
-        <h2 class="section-title">Experience</h2>
+<hr class="rule">
 
-        <div class="card">
+<section id="experience">
+  <div class="wrap">
+    <div class="head">
+      <h2>Experience</h2>
+      <span class="count">Jul 2022 — present</span>
+    </div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="role-row">
+          <div>
             <h3>Software Developer</h3>
-            <h4>Logix Shapers Offshore Services Pvt Ltd</h4>
-
-            <p>
-                Working on enterprise applications using ASP.NET Core,
-                SQL Server, Dapper and React. Developed modules related to
-                Fleet Management, CRM, Reports, Invoicing and Integrations.
-            </p>
+            <div class="company">Logix Shapers Offshore Services Pvt. Ltd.</div>
+          </div>
+          <div class="dates">May 2023 — Present</div>
         </div>
-    </section>
-
-    <!-- Projects -->
-    <section class="container">
-        <h2 class="section-title">Projects</h2>
-
-        <div class="project-grid">
-
-            <div class="project-card">
-                <h3>CarQuoteHub</h3>
-                <p>
-                    Vehicle quotation portal developed using ASP.NET Core and SQL Server.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>News Portal</h3>
-                <p>
-                    SEO optimized news website developed using React and Next.js.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>Fleet ERP</h3>
-                <p>
-                    Enterprise fleet management solution for chauffeur and booking management.
-                </p>
-            </div>
-
+        <p>Building and maintaining production ASP.NET Core systems end to end — from SEO tooling to purchase-order workflows — with SQL Server as the backbone across every project.</p>
+      </div>
+      <div class="tl-item">
+        <div class="role-row">
+          <div>
+            <h3>Intern / Junior Software Developer</h3>
+            <div class="company">Culture Holidays India Pvt. Ltd., Delhi</div>
+          </div>
+          <div class="dates">Jul 2022 — Apr 2023</div>
         </div>
-    </section>
+        <p>Started here — cut his teeth on MVC and SQL Server building an admin panel for an international tour agency, learning the shape of real production code.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Contact -->
-    <section class="container" id="contact">
-        <h2 class="section-title">Contact</h2>
+<hr class="rule">
 
-        <div class="card">
-            <p><strong>Email:</strong> manish@example.com</p>
-            <p><strong>Phone:</strong> +91 XXXXXXXXXX</p>
-            <p><strong>Location:</strong> Noida, India</p>
-            <p><strong>LinkedIn:</strong> linkedin.com/in/manishkumar</p>
-            <p><strong>GitHub:</strong> github.com/manishkumar</p>
-        </div>
-    </section>
+<section id="projects">
+  <div class="wrap">
+    <div class="head">
+      <h2>Projects shipped</h2>
+      <span class="count">6 systems, all in production or client use</span>
+    </div>
+    <div class="projects">
 
-    <footer>
-        <p>© 2026 Manish Kumar | .NET Full Stack Developer</p>
-    </footer>
+      <div class="pcard">
+        <div class="pnum">system / 01</div>
+        <h3>Quaapps — SEO &amp; SMO Tool</h3>
+        <p>An SEO/SMO automation platform that audits websites, tracks backlinks, and analyzes keywords to help sites climb search rankings.</p>
+        <div class="tags"><span class="tag">C#</span><span class="tag">ASP.NET Core</span><span class="tag">MVC</span><span class="tag">jQuery</span><span class="tag">SQL Server</span></div>
+      </div>
+
+      <div class="pcard">
+        <div class="pnum">system / 02</div>
+        <h3>PO Module</h3>
+        <p>A purchase-order management module handling requests, vendor records, and order tracking to streamline procurement.</p>
+        <div class="tags"><span class="tag">C#</span><span class="tag">ASP.NET Core</span><span class="tag">MVC</span><span class="tag">SQL Server</span></div>
+      </div>
+
+      <div class="pcard">
+        <div class="pnum">system / 03</div>
+        <h3>SQL Server Automated Reporting</h3>
+        <p>A reporting pipeline built on views and stored procedures, with Database Mail and SQL Agent Jobs delivering reports on schedule — no manual step required.</p>
+        <div class="tags"><span class="tag">T-SQL</span><span class="tag">Stored Procedures</span><span class="tag">SQL Agent</span><span class="tag">Database Mail</span></div>
+      </div>
+
+      <div class="pcard">
+        <div class="pnum">system / 04</div>
+        <h3>Corporate Car Booking Portal</h3>
+        <p>An internal booking system for company vehicles — employees book and track requests, admins manage fleet availability and approvals.</p>
+        <div class="tags"><span class="tag">C#</span><span class="tag">ASP.NET Core</span><span class="tag">MVC</span><span class="tag">SQL Server</span></div>
+      </div>
+
+      <div class="pcard">
+        <div class="pnum">system / 05</div>
+        <h3>Culture Holidays Admin Panel</h3>
+        <p>The management system behind an international tour agency — packages, itineraries, pricing, and inquiries in one place.</p>
+        <div class="tags"><span class="tag">C#</span><span class="tag">ASP.NET Core</span><span class="tag">MVC</span><span class="tag">jQuery</span></div>
+      </div>
+
+      <div class="pcard">
+        <div class="pnum">system / 06</div>
+        <h3>AVIS ERP System</h3>
+        <p>Client-side contributor on a full enterprise ERP build — multiple modules, cross-team implementation, integration work throughout.</p>
+        <div class="tags"><span class="tag">C#</span><span class="tag">MVC</span><span class="tag">ASP.NET Core</span><span class="tag">SQL Server</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<footer id="contact">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="eyebrow">Get in touch</p>
+      <h2>Let's build something that has to actually work.</h2>
+      <p>Based in Gurugram, open to full-time and contract .NET / full-stack roles. Fluent in English and Hindi.</p>
+    </div>
+    <ul class="foot-list">
+      <li><a href="mailto:developermanish73@gmail.com">developermanish73@gmail.com</a></li>
+      <li><a href="tel:+919588761093">+91 95887 61093</a></li>
+      <li>Gali No. 3, Chakkarpur, Gurugram – 122002</li>
+      <li>English · Hindi</li>
+    </ul>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© 2026 Manish Kumar</span>
+    <span>Built for the roles worth applying to.</span>
+  </div>
+</footer>
 
 </body>
 </html>
